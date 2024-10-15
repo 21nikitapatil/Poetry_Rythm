@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POETRY RHYTHM</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>  
+    <div id="container">
+        
+       
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+           
+            <ul>
+               
+              <li class="active"><a href="simple.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Upload</a></li>
+              
+             
+            </ul>
+            <div class="login">
+                <button class="login/sign_in"><a href="login.html">login</a>
+            </div>
+            
+        </nav>
+       
+       
+        
+    </div>
+    <br>
+    <br>
+
+  <div class="login-container">
+    <h2>Login to Your Poetry Account</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <span class="error" id="nameError"></span>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120" required>
+        <span class="error" id="ageError"></span>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <span class="error" id="passwordError"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error" id="emailError"></span>
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+        <span class="error" id="mobileError"></span>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <br>
+  <br>
+
+  <div class="clr">
+    <a target="_blank" href="https://www.linkedin.com/in/nikita-patil-53032b293/">
+        <img src="linkedin.png" class="sm_icon" alt="LinkedIn">
+    </a>
+    <a target="_blank" href="https://twitter.com/home?lang=e">
+        <img src="twitter.png" class="sm_icon" alt="Twitter">
+    </a>
+    <a target="_blank" href="https://www.facebook.com/getting_started/">
+        <img src="facebook.png" class="sm_icon" alt="Facebook">
+    </a>
+    <script src="all.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange main content and sidebar vertically */
+  min-height: 80vh; /* Ensure the body stretches to full height */
+  min-width: 50px;
+  
+}
+
+/* Container styling */
+#container {
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Aligns items at the ends */
+  align-items: left; /* Centers items vertically */
+  margin-left: auto;
+  padding: 10px; /* Example padding */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 50px; /* Adjust spacing between menu items */
+}
+
+nav ul li:last-child {
+  margin-left: auto; /* Remove margin from the last menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.login {
+  margin-left: auto; /* Pushes the login button to the right */
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px; /* Increased padding for larger size */
+  font-size: 16px; /* Increased font size */
+  border: 1px solid black; /* Example border */
+  border-radius: 5px; /* Example border radius */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Logo styling */
+.logo {
+  text-align: left;
+  margin-left: 10px ;
+  
+}
+
+.logo img {
+  max-width: 5%;
+  margin-top: -20px;
+ 
+}
+
+#main {
+  flex-grow: 1; /* Main content area takes remaining space */
+  padding: 20px;
+  text-align: justify;
+  
+}
+
+
+/* Main and sidebar container */
+#main-and-sidebar {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Align items at the start vertically */
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Sidebar styling */
+#sidebar {
+  width: 1500px; /* Adjust width as needed */
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Postcard section styling */
+#nik {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#rk {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.postcard {
+  width: 250px;
+  margin: 0 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.postcard img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+  border-radius: 10px 10px 0 0;
+}
+
+.postcard figcaption {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.postcard p {
+  margin: 10px;
+  color: #555;
+}
+
+/* Clear fix for social icons */
+.clr {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sm_icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+

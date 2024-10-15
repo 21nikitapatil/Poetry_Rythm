@@ -1,0 +1,234 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange main content and sidebar vertically */
+  min-height: 80vh; /* Ensure the body stretches to full height */
+  min-width: 50px;
+  
+}
+
+/* Container styling */
+#container {
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Aligns items at the ends */
+  align-items: left; /* Centers items vertically */
+  margin-left: auto;
+  padding: 10px; /* Example padding */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 50px; /* Adjust spacing between menu items */
+}
+
+nav ul li:last-child {
+  margin-left: auto; /* Remove margin from the last menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.login {
+  margin-left: auto; /* Pushes the login button to the right */
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px; /* Increased padding for larger size */
+  font-size: 16px; /* Increased font size */
+  border: 1px solid black; /* Example border */
+  border-radius: 5px; /* Example border radius */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Logo styling */
+.logo {
+  text-align: left;
+  margin-left: 10px ;
+  
+}
+
+.logo img {
+  max-width: 5%;
+  margin-top: -20px;
+ 
+}
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black; /* Text color is black */
+  }
+
+  #header{
+    background-color: grey;
+    color: black;
+    float: right;
+
+}
+ h2 {
+    color: #333;
+    margin-top: 0;
+}
+p {
+    color: #666;
+    margin: 1em 0;
+}
+.features p, .features strong {
+    margin: 0.5em 0;
+}
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.clr{
+    clear: both;
+}
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange main content and sidebar vertically */
+  min-height: 80vh; /* Ensure the body stretches to full height */
+  min-width: 50px;
+  
+}
+
+/* Container styling */
+#container {
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Aligns items at the ends */
+  align-items: left; /* Centers items vertically */
+  margin-left: auto;
+  padding: 10px; /* Example padding */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 50px; /* Adjust spacing between menu items */
+}
+
+nav ul li:last-child {
+  margin-left: auto; /* Remove margin from the last menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.login {
+  margin-left: auto; /* Pushes the login button to the right */
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px; /* Increased padding for larger size */
+  font-size: 16px; /* Increased font size */
+  border: 1px solid black; /* Example border */
+  border-radius: 5px; /* Example border radius */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Logo styling */
+.logo {
+  text-align: left;
+  margin-left: 10px ;
+  
+}
+
+.logo img {
+  max-width: 5%;
+  margin-top: -20px;
+ 
+}
+  .footer img{
+    max-width: 5px;
+    height: 5px;
+
+  }
+  .logo-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .sm_icon{
+ 
+    width: 30px;
+    display: flex;
+    text-align: center;
+    
+  }
+#footer{
+    
+    padding: 5px;
+    background:white;
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POETRY RHYTHM</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>  
+    <div id="container">
+        
+       
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+           
+            <ul>
+               
+              <li class="active"><a href="simple.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Upload</a></li>
+             
+             
+            </ul>
+            <div class="login">
+                <button class="login/sign_in"><a href="login.html">login</a>
+            </div>
+            
+        </nav>
+       
+       
+        
+    </div>
+    <div class="upload-container">
+        <h2>Upload Your Poem</h2>
+        <form id="uploadForm">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+            <div class="form-group">
+                <label for="poem">Poem:</label>
+                <textarea id="poem" name="poem" rows="10" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="caption">Caption:</label>
+                <input type="text" id="caption" name="caption">
+            </div>
+            <div class="form-group">
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*">
+            </div>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    <div class="posts-container" id="postsContainer">
+        <!-- Posts will be dynamically added here -->
+    </div>
+
+    <script src="all.js"></script>
+</body>
+</html>
